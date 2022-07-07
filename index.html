@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISAMA</title>    
+    <title>ISAMA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/adaptive.css">
@@ -36,25 +37,25 @@
                 <img src="./images/divide.svg" alt="rectangle">
                 <div class="social-item">
                     <a href="http://facebook.com">
-                        <img src="./images/facebook-nav.svg" alt="facebook logo">
+                        <img class="social-img" src="./images/facebook-nav.svg" alt="facebook logo">
                     </a>
                 </div>
                 <img src="./images/divide.svg" alt="rectangle">
                 <div class="social-item">
                     <a href="http://twitter.com">
-                        <img src="./images/twitter-nav.svg" alt="twitter logo">
+                        <img class="social-img" src="./images/twitter-nav.svg" alt="twitter logo">
                     </a>
                 </div>
                 <img src="./images/divide.svg" alt="rectangle">
                 <div class="social-item">
                     <a href="http://instagram.com">
-                        <img src="./images/instagram-nav.svg" alt="instagram logo">
+                        <img class="social-img" src="./images/instagram-nav.svg" alt="instagram logo">
                     </a>
                 </div>
                 <img src="./images/divide.svg" alt="rectangle">
                 <div class="social-item">
                     <a href="http://google.com">
-                        <img src="./images/google-nav.svg" alt="google logo">
+                        <img class="social-img" src="./images/google-nav.svg" alt="google logo">
                     </a>
                 </div>
                 <img src="./images/divide.svg" alt="rectangle">
@@ -65,76 +66,95 @@
                 <h1 class="title-h">LET’S DRAW SOME ARTS</h1>
                 <img class="heading-img" src="./images/and.png" alt="">
                 <h1 class="title-p">make your business much better</h1>
-
-                <!-- СЛАЙДЕР -->
-                <div class="slider">
-
-                </div>
             </div>
+
+
+        </div>
+        <!-- СЛАЙДЕР -->
+        <div class="slider">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/slide-1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/slide-2.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
         </div>
         </div>
     </section>
     <section class="screen-second">
-            <div class="container-article">
-                <div class="article-wrapper-first">
-                    <div class="flexbox">
-                        <div>
-                            <img src="./images/lamp.png" alt="Lamp">
-                        </div>
-                        <div class="ar-wrapper">
-                            <h1 class="article-head">What about ISAMA</h1>
-                            <p class="article">ISAMA is a marketing foundation located in Riyadh,<br> built on
-                                the talent of creation that leads to a modern concept of
-                                professionalism. At ISAMA we believe even if you are good
-                                at what you do, you havea great product or you providean
-                                excellent service. We stil can present you a little better to
-                                the world, creating your full identity, provides you with
-                                your marketing plans, design your website, print your pub-
-                                lications, design your logo's and offices. Simply we give
-                                your business the perfect image.</p>
-                        </div>
+        <div class="container-article">
+            <div class="article-wrapper-first">
+                <div class="flexbox">
+                    <div>
+                        <img class="flexbox-img" src="./images/lamp.png" alt="Lamp">
+                    </div>
+                    <div class="ar-wrapper">
+                        <h1 class="article-head">What about ISAMA</h1>
+                        <p class="article">ISAMA is a marketing foundation located in Riyadh,<br> built on
+                            the talent of creation that leads to a modern concept of
+                            professionalism. At ISAMA we believe even if you are good
+                            at what you do, you havea great product or you providean
+                            excellent service. We stil can present you a little better to
+                            the world, creating your full identity, provides you with
+                            your marketing plans, design your website, print your pub-
+                            lications, design your logo's and offices. Simply we give
+                            your business the perfect image.</p>
                     </div>
                 </div>
-                <div class="article-wrapper">
-                    <div class="flexbox">
-                        <div>
-                            <img src="./images/tree.png" alt="Tree">
-                        </div>
-                        <div class="ar-wrapper">
-                            <h1 class="article-head">Why we exist</h1>
-                            <p class="article">Reaching customer satisfaction through providing
-                                them with cutting-edge technologies that give clients
-                                access to a wide range of tools, ensuring efficient and
-                                results-oriented communication solutions, which
-                                grant them a special character that distinguishes them
-                                from the others in the business..</p>
-                        </div>
+            </div>
+            <div class="article-wrapper">
+                <div class="flexbox">
+                    <div>
+                        <img class="flexbox-img" src="./images/tree.png" alt="Tree">
+                    </div>
+                    <div class="ar-wrapper">
+                        <h1 class="article-head">Why we exist</h1>
+                        <p class="article">Reaching customer satisfaction through providing
+                            them with cutting-edge technologies that give clients
+                            access to a wide range of tools, ensuring efficient and
+                            results-oriented communication solutions, which
+                            grant them a special character that distinguishes them
+                            from the others in the business..</p>
                     </div>
                 </div>
+            </div>
         </div>
         <div class="map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.501738261152!2d39.21269081540747!3d21.52722807594907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cfedd7bb0a61%3A0xe3ea512bee137790!2sAlreyadh%20Alarabia%20Alhadithah%20Est.!5e0!3m2!1sru!2sru!4v1657145821026!5m2!1sru!2sru"
                 style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="contact">
-                    <div class="pin"><i class="demo-icon icon-pin"><span id="address"> Bani Malik, Jeddah 23232, Saudi Arabia </span></i></div>
-                    <div class="envelope"><i class="demo-icon icon-mail"></i></div>
-                    <div class="telephone"><i class="demo-icon icon-phone"></i></div>
-                </div>
+            <div class="contact">
+                <div class="pin"><i class="demo-icon icon-pin"><span id="address"> Bani Malik, Jeddah 23232, Saudi
+                            Arabia </span></i></div>
+                <div class="envelope"><i class="demo-icon icon-mail"></i></div>
+                <div class="telephone"><i class="demo-icon icon-phone"></i></div>
+            </div>
         </div>
         <div class="footer">
             <div>
                 <div class="footer-social">
                     <!-- Возможно сменить класс -->
                     <img src="./images/divide-footer.svg" alt="rectangle">
-                    <a href="#" class="footer-social-item"><img src="./images/facebook-footer.svg" alt="facebook logo"></a>
+                    <a href="#" class="footer-social-item">
+                        <img class="f-social-img" src="./images/facebook-footer.svg" alt="facebook logo">
+                    </a>
                     <img src="./images/divide-footer.svg" alt="rectangle">
-                    <a href="#" class="footer-social-item"><img src="./images/twitter-footer.svg" alt="twitter logo"></a>
+                    <a href="#" class="footer-social-item">
+                        <img class="f-social-img" src="./images/twitter-footer.svg" alt="twitter logo">
+                    </a>
                     <img src="./images/divide-footer.svg" alt="rectangle">
-                    <a href="#" class="footer-social-item"><img src="./images/instagram-footer.svg" alt="instagram logo"></a>
+                    <a href="#" class="footer-social-item">
+                        <img class="f-social-img" src="./images/instagram-footer.svg" alt="instagram logo">
+                    </a>
                     <img src="./images/divide-footer.svg" alt="rectangle">
-                    <a href="#" class="footer-social-item"><img src="./images/google-footer.svg" alt="google logo"></a>
+                    <a href="#" class="footer-social-item">
+                        <img class="f-social-img" src="./images/google-footer.svg" alt="google logo">
+                    </a>
                     <img src="./images/divide-footer.svg" alt="rectangle">
                 </div>
                 <div class="copyright">Copyright 2014 - ISAMA for information technology</div>
@@ -173,5 +193,10 @@
 
 
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+
+
+
 
 </html>

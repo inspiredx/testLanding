@@ -5,7 +5,7 @@ body {
 
 .screen-first {
     margin-bottom: 82px;
-    min-height: 885px;
+    min-height: 1054px;
     min-width: 1800px;
     background-image: url("../images/background.png");
     background-size: cover;
@@ -19,7 +19,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 491px 0 420px;
+    margin: 0 491px 0 318px;
     align-items: center;
     font-size: 14px;
 }
@@ -73,6 +73,7 @@ body {
 .article {
     width: 363px;
     overflow-wrap: normal;
+    line-height: 1.5;
 }
 
 .container-heading {
@@ -110,14 +111,14 @@ body {
     text-shadow: 2px 2px 2px rgb(156 150 150 / 44%);
 }
 
-/* Второй экран */
 .map iframe {
-    width: 100vw;
-    height: 502px; 
+    width: 99vw;
+    height: 502px;
 }
+
 .container-article {
     justify-content: center;
-    /* margin: 54px 420px 87px 420px; */
+    margin-bottom: 87px;
     color: #6D6E71
 }
 
@@ -143,7 +144,7 @@ body {
 
 .footer-social {
     display: flex;
-    margin: 77px 0 68px 419px;
+    margin: 77px 0 68px 386px;
 }
 
 .footer-social-item {
@@ -153,7 +154,7 @@ body {
 }
 
 .copyright {
-    margin: 0 0 25px 419px;
+    margin: 0 0 25px 385px;
     font-size: 13px;
     color: #6D6E71;
 }
@@ -177,7 +178,7 @@ body {
 
 #newsletter input {
     padding: 18.5px 0 19.5px 80px;
-    margin: 60px 0 0 307px;
+    margin: 60px 300px 0 307px;
     border: 0;
     border-radius: 10px;
     background-color: #393B3C;
@@ -240,8 +241,8 @@ body {
     width: 158px;
     justify-items: center;
     position: absolute;
-    left: 873px;
-    bottom: -800px; 
+    left: 1110px;
+    bottom: -800px;
 }
 
 .contact div {
@@ -313,4 +314,50 @@ body {
     box-sizing: border-box;
     padding-right: 13%;
     padding-left: 13%;
+}
+
+/* СЛАЙДЕР */
+
+.slider {
+    margin-top: 495px;
+    margin-left: 48px;
+}
+
+
+.swiper {
+    width: 20%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    color: grey;
 }
