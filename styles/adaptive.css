@@ -3,7 +3,7 @@
     /* Target portrait smartphones */
 
     .screen-first {
-        min-height: 589px;
+        min-width: 100%;
     }
 
 
@@ -31,9 +31,6 @@
         left: 2px;
     }
 
-    .container-article {
-        margin: 54px 420px 87px 30px;
-    }
 
     .ar-wrapper {
         padding-left: 0;
@@ -56,7 +53,7 @@
     .contact {
         width: 100px;
         left: 332px;
-        bottom: -570px;
+        bottom: -781px;
     }
 
     .contact div {
@@ -106,6 +103,16 @@
         height: 300px;
     }
 
-    
 
+
+}
+
+@media all and (max-width:425px) {
+    html {
+        width: 200%;
+    }
+
+    .map iframe {
+        width: 200vw;
+    }
 }

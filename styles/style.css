@@ -111,16 +111,19 @@ body {
 }
 
 /* Второй экран */
-
+.map iframe {
+    width: 100vw;
+    height: 502px; 
+}
 .container-article {
-    margin: 54px 420px 87px 420px;
+    justify-content: center;
+    /* margin: 54px 420px 87px 420px; */
     color: #6D6E71
 }
 
 .article-wrapper-first {
     margin-right: 122px;
 }
-
 
 .ar-wrapper {
     display: flex;
