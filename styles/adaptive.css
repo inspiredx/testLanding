@@ -115,4 +115,8 @@
     .map iframe {
         width: 200vw;
     }
+
+    .container-article {       
+        margin-bottom: 40px;
+    }
 }
