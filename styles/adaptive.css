@@ -193,7 +193,7 @@
 }
 
 /* Mobile-M */
-@media all and (max-width:375px) and (min-width: 375px) {
+@media all and (max-width:375px) and (min-width: 321px) {
 
     .body-wrapper {
         min-height: 100%;
@@ -387,7 +387,7 @@
 }
 
 /* Mobile-L */
-@media all and (max-width:425px) and (min-width: 425px) {
+@media all and (max-width:425px) and (min-width: 374px) {
 
     .body-wrapper {
         min-height: 100%;
@@ -563,7 +563,7 @@
 }
 
 /* Tablet */
-@media all and (max-width:768px) and (min-width: 768px) {
+@media all and (max-width:768px) and (min-width: 424px) {
 
     /* Target portrait smartphones */
 
