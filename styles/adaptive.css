@@ -62,11 +62,11 @@
     }
 
     .footer-social {
-        margin: 25px 0 25px 20px;
+        margin: 25px 0 25px 32px;
     }
 
     .copyright {
-        margin: 0px 0 20px 20px;
+        margin: 0px 0 20px 32px;
         font-size: 10px;
     }
 
@@ -103,12 +103,14 @@
         height: 300px;
     }
 
+    .slider {
+        margin-top: 639px;
+        margin-left: 48px;
+    }
+
     .swiper {
         width: 60%;
     }
-
-
-
 }
 
 @media all and (max-width:425px) {
@@ -128,7 +130,7 @@
     }
 
     .slider {
-        margin-top: 400px;
+        margin-top: 484px;
         margin-left: 12px;
     }
 
@@ -251,7 +253,7 @@
 
 }
 
-@media all and (max-width:1024px) {
+@media all and (min-width:1024px) {
 
 
     .body-wrapper {
@@ -271,7 +273,7 @@
     }
 
     .slider {
-        margin-top: 495px;
+        margin-top: 571px;
         margin-left: -712px;
     }
 
@@ -320,7 +322,7 @@
 }
 
 
-@media all and (max-width:1440px) {
+@media all and (min-width:1440px) {
 
     .body-wrapper {
         min-height: 100%;
@@ -331,12 +333,12 @@
         margin: 0 491px 0 101px;
     }
 
-    .container-heading {        
-        left: 203px;        
+    .container-heading {
+        left: 203px;
     }
 
     .slider {
-        margin-top: 534px;
+        margin-top: 596px;
         margin-left: -282px;
     }
 
@@ -344,18 +346,157 @@
         width: 100vw;
     }
 
-    .contact {
-        left: 641px;
-        bottom: -580px;
-    }
-
     .footer-social {
-        margin: 77px 0 68px 117px;
+        margin: 37px 0 68px 117px;
     }
 
     .copyright {
         margin: 0 0 25px 118px;
         font-size: 12px;
     }
+
+    .contact {
+        left: 641px;
+        bottom: -1260px;
+    }
+
+    #newsletter input {
+        margin: 30px 300px 0 433px;
+    }
+
+    .footer-nav-list {
+        margin-left: 600px;
+        margin-top: 26px;
+    }
+
+    #newsletter button {
+        left: 844px;
+    }
+
+    #newsletter input+label:after {
+        left: 453px;
+    }
+
+}
+
+@media all and (max-width:375px) {
+    .f-social-img {
+        width: 33px;
+    }
+
+    #newsletter input, #newsletter label {
+        margin-left: -345px;
+    }
+
+    #newsletter button {
+        left: -21px;
+    }
+
+    .footer-nav-list {
+        font-size: 13px;
+        margin-left: -323px;
+    }
+
+    .copyright {
+        margin: 136px 0 23px 37px;
+        font-size: 13px;
+    }
+
+    #newsletter input+label:after {
+        left: -332px;
+    }
+
+    .contact {
+        left: 138px;
+        bottom: -2085px;
+    }
+
+    .slider {
+        margin-top: 515px;
+    }
+}
+
+@media all and (max-width:320px) {
+
+    .f-social-img {
+        width: 20px;
+    }
+
+    #newsletter input, #newsletter label {
+        width: 230px;
+        font-size: 13px;
+        margin-left: -279px;
+    }
+
+    .footer-nav-list {
+        font-size: 11px;
+        margin-left: -283px;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+
+    #newsletter button {
+        top: 123px;
+        left: -19px;
+        width: 26px;
+        height: 26px;
+        font-size: 8px;
+    }
+
+    #newsletter input+label:after {
+        left: -265px;
+        bottom: 38px;
+    }
+
+    .contact {
+        left: 108px;
+        bottom: -2375px;
+    }
+
+    .slider {
+        margin-top: 549px;
+    }
+}
+
+@media all and (min-width:1920px) {
+
+    .nav {
+        margin: 0 491px 0 346px;
+    }
+
+    .container-heading {
+        top: 199px;
+        height: 175px;
+        bottom: 509px;
+        left: 355px;
+        right: 0px;
+        width: 53.85%;
+    }
+
+    .slider {
+        margin-top: 613px;
+        margin-left: 368px;
+    }
+
+    .article {
+        width: 363px;
+    }
+
+    .footer-social {
+        margin: 47px 0 68px 386px;
+    }
+
+    .copyright {
+        margin: 0 0 25px 385px;
+        font-size: 12px;
+    }
+
+    .contact {
+        left: 882px;
+        bottom: -1050px;
+    }
+
 
 }
