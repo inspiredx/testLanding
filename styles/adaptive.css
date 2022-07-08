@@ -1,118 +1,87 @@
-@media all and (max-width:768px) {
+/* Mobile-S */
+@media all and (max-width:320px) {
 
-    /* Target portrait smartphones */
-
-    .screen-first {
-        min-width: 100%;
-    }
-
-
-    .nav {
-        margin: 0px 0px 0 15px;
-    }
-
-    .title-h {
-        font-size: 35px;
-    }
-
-    .container-heading {
-        left: 60px;
-    }
-
-    .heading-img {
-        width: 51px;
-        top: 43px;
-        left: 6px;
-    }
-
-    .title-p {
-        font-size: 22px;
-        top: 71px;
-        left: 2px;
-    }
-
-
-    .ar-wrapper {
-        padding-left: 0;
-    }
-
-    .article-wrapper-first {
-        margin-right: 34px;
-    }
-
-    .article {
-        width: 235px;
-        overflow-wrap: normal;
-        font-size: 11px;
-    }
-
-    iframe {
-        width: 768px;
-    }
-
-    .contact {
-        width: 100px;
-        left: 328px;
-        bottom: -1080px;
-    }
-
-    .contact div {
-        width: 30px;
-        height: 30px;
-    }
-
-    .footer-social {
-        margin: 25px 0 25px 32px;
-    }
-
-    .copyright {
-        margin: 0px 0 20px 32px;
-        font-size: 10px;
-    }
-
-    #newsletter input {
-        padding: 10.5px 0 10.5px 60px;
-        margin: 20px 0 0 30px;
+    .f-social-img {
+        width: 20px;
     }
 
     #newsletter input, #newsletter label {
-        width: 335px;
-        font-size: 10px;
-    }
-
-    #newsletter input+label:after {
-        left: 45px;
-        bottom: 38px;
-    }
-
-    #newsletter button {
-        top: 45px;
-        left: 365px;
-        width: 50px;
-        height: 20px;
-        font-size: 12px;
+        width: 230px;
+        font-size: 13px;
+        margin-left: -279px;
     }
 
     .footer-nav-list {
-        font-size: 10px;
-        margin-left: 137px;
-        margin-top: 7px;
+        font-size: 11px;
+        margin-left: -283px;
     }
 
-    .screen-container {
-        height: 300px;
+    .copyright {
+        font-size: 11px;
+    }
+
+    #newsletter button {
+        top: 123px;
+        left: -19px;
+        width: 26px;
+        height: 26px;
+        font-size: 8px;
+    }
+
+    #newsletter input+label:after {
+        left: -265px;
+        bottom: 38px;
+    }
+
+    .contact {
+        left: 108px;
+        bottom: -2375px;
     }
 
     .slider {
-        margin-top: 639px;
-        margin-left: 48px;
-    }
-
-    .swiper {
-        width: 60%;
+        margin-top: 549px;
     }
 }
 
+/* Mobile-M */
+@media all and (max-width:375px) {
+    .f-social-img {
+        width: 33px;
+    }
+
+    #newsletter input, #newsletter label {
+        margin-left: -345px;
+    }
+
+    #newsletter button {
+        left: -21px;
+    }
+
+    .footer-nav-list {
+        font-size: 13px;
+        margin-left: -323px;
+    }
+
+    .copyright {
+        margin: 136px 0 23px 37px;
+        font-size: 13px;
+    }
+
+    #newsletter input+label:after {
+        left: -332px;
+    }
+
+    .contact {
+        left: 138px;
+        bottom: -2085px;
+    }
+
+    .slider {
+        margin-top: 515px;
+    }
+}
+
+/* Mobile-L */
 @media all and (max-width:425px) {
 
     .body-wrapper {
@@ -253,6 +222,123 @@
 
 }
 
+/* Tablet */
+@media all and (max-width:768px) {
+
+    /* Target portrait smartphones */
+
+    .screen-first {
+        min-width: 100%;
+    }
+
+
+    .nav {
+        margin: 0px 0px 0 15px;
+    }
+
+    .title-h {
+        font-size: 35px;
+    }
+
+    .container-heading {
+        left: 60px;
+    }
+
+    .heading-img {
+        width: 51px;
+        top: 43px;
+        left: 6px;
+    }
+
+    .title-p {
+        font-size: 22px;
+        top: 71px;
+        left: 2px;
+    }
+
+
+    .ar-wrapper {
+        padding-left: 0;
+    }
+
+    .article-wrapper-first {
+        margin-right: 34px;
+    }
+
+    .article {
+        width: 235px;
+        overflow-wrap: normal;
+        font-size: 11px;
+    }
+
+    iframe {
+        width: 768px;
+    }
+
+    .contact {
+        width: 100px;
+        left: 328px;
+        bottom: -1080px;
+    }
+
+    .contact div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-social {
+        margin: 25px 0 25px 32px;
+    }
+
+    .copyright {
+        margin: 0px 0 20px 32px;
+        font-size: 10px;
+    }
+
+    #newsletter input {
+        padding: 10.5px 0 10.5px 60px;
+        margin: 20px 0 0 30px;
+    }
+
+    #newsletter input, #newsletter label {
+        width: 335px;
+        font-size: 10px;
+    }
+
+    #newsletter input+label:after {
+        left: 45px;
+        bottom: 38px;
+    }
+
+    #newsletter button {
+        top: 45px;
+        left: 365px;
+        width: 50px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .footer-nav-list {
+        font-size: 10px;
+        margin-left: 137px;
+        margin-top: 7px;
+    }
+
+    .screen-container {
+        height: 300px;
+    }
+
+    .slider {
+        margin-top: 639px;
+        margin-left: 48px;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+}
+
+/* Notebook */
 @media all and (min-width:1024px) {
 
 
@@ -321,7 +407,7 @@
     }
 }
 
-
+/* Notebook-L */
 @media all and (min-width:1440px) {
 
     .body-wrapper {
@@ -379,87 +465,7 @@
 
 }
 
-@media all and (max-width:375px) {
-    .f-social-img {
-        width: 33px;
-    }
-
-    #newsletter input, #newsletter label {
-        margin-left: -345px;
-    }
-
-    #newsletter button {
-        left: -21px;
-    }
-
-    .footer-nav-list {
-        font-size: 13px;
-        margin-left: -323px;
-    }
-
-    .copyright {
-        margin: 136px 0 23px 37px;
-        font-size: 13px;
-    }
-
-    #newsletter input+label:after {
-        left: -332px;
-    }
-
-    .contact {
-        left: 138px;
-        bottom: -2085px;
-    }
-
-    .slider {
-        margin-top: 515px;
-    }
-}
-
-@media all and (max-width:320px) {
-
-    .f-social-img {
-        width: 20px;
-    }
-
-    #newsletter input, #newsletter label {
-        width: 230px;
-        font-size: 13px;
-        margin-left: -279px;
-    }
-
-    .footer-nav-list {
-        font-size: 11px;
-        margin-left: -283px;
-    }
-
-    .copyright {
-        font-size: 11px;
-    }
-
-    #newsletter button {
-        top: 123px;
-        left: -19px;
-        width: 26px;
-        height: 26px;
-        font-size: 8px;
-    }
-
-    #newsletter input+label:after {
-        left: -265px;
-        bottom: 38px;
-    }
-
-    .contact {
-        left: 108px;
-        bottom: -2375px;
-    }
-
-    .slider {
-        margin-top: 549px;
-    }
-}
-
+/* 1920 */
 @media all and (min-width:1920px) {
 
     .nav {
